@@ -16,9 +16,11 @@
     <description lang="de_DE">Favorite Scene Library macht aus Kodi-Lesezeichen eine Szenenbibliothek mit Namen, Kategorien, Bildern und direktem Start an der gespeicherten Position.</description>
     <platform>all</platform>
     <license>MIT</license>
+    <website>https://github.com/scourge76/favorite-scene-library</website>
+    <source>https://github.com/scourge76/favorite-scene-library</source>
     <assets>
-      <icon>resources/media/icon.png</icon>
-      <fanart>resources/media/fanart.jpg</fanart>
+      <icon>docs/fsl-logo.jpg</icon>
+      <fanart>docs/home-widget.jpg</fanart>
     </assets>
   </extension>
 </addon>
