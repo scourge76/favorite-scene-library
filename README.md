@@ -1,7 +1,7 @@
 # Favorite Scene Library (FSL)
 
 <p align="center">
-  <img src="docs/fsl-logo.jpg" alt="Favorite Scene Library logo" width="420">
+  <img src="docs/fsl-logo.jpg" alt="Favorite Scene Library logo" width="210">
 </p>
 
 **A Kodi add-on for organizing and instantly playing favorite movie scenes.**  
@@ -10,7 +10,7 @@
 Developed by **Scourge** · Version **1.0.0** · German & English
 
 <p align="center">
-  <img src="docs/home-widget.jpg" alt="FSL home screen and movie widget" width="760">
+  <img src="docs/home-widget.jpg" alt="FSL home screen and movie widget" width="380">
 </p>
 
 ---
@@ -67,19 +67,19 @@ Using **Movies** instead of **All Scenes** displays one poster per movie. Select
 ### Screenshots
 
 #### FSL main-menu entry with Movies widget
-![FSL main menu and movie widget](docs/home-widget.jpg)
+<img src="docs/home-widget.jpg" alt="FSL main menu and movie widget" width="380">
 
 #### Scene context menu
-![Scene context menu](docs/context-menu.jpg)
+<img src="docs/context-menu.jpg" alt="Scene context menu" width="380">
 
 #### Assigning a category
-![Category selection](docs/category-selection.jpg)
+<img src="docs/category-selection.jpg" alt="Category selection" width="380">
 
 #### Renamed scene
-![Renamed scene](docs/renamed-scene.jpg)
+<img src="docs/renamed-scene.jpg" alt="Renamed scene" width="380">
 
 #### Kodi bookmark source
-![Kodi bookmark window](docs/kodi-bookmarks.jpg)
+<img src="docs/kodi-bookmarks.jpg" alt="Kodi bookmark window" width="380">
 
 ---
 
@@ -135,19 +135,19 @@ Als Widget sollte **Filme** und nicht **Alle Szenen** verwendet werden. Dadurch 
 ### Bildschirmfotos
 
 #### Eigener FSL-Menüpunkt mit Filme-Widget
-![FSL-Startseite und Filme-Widget](docs/home-widget.jpg)
+<img src="docs/home-widget.jpg" alt="FSL-Startseite und Filme-Widget" width="380">
 
 #### Kontextmenü einer Szene
-![Kontextmenü](docs/context-menu.jpg)
+<img src="docs/context-menu.jpg" alt="Kontextmenü" width="380">
 
 #### Kategorie festlegen
-![Kategorieauswahl](docs/category-selection.jpg)
+<img src="docs/category-selection.jpg" alt="Kategorieauswahl" width="380">
 
 #### Umbenannte Szene in FSL
-![Umbenannte Szene](docs/renamed-scene.jpg)
+<img src="docs/renamed-scene.jpg" alt="Umbenannte Szene" width="380">
 
 #### Kodi-Lesezeichen als Grundlage
-![Kodi-Lesezeichen](docs/kodi-bookmarks.jpg)
+<img src="docs/kodi-bookmarks.jpg" alt="Kodi-Lesezeichen" width="380">
 
 ---
 
