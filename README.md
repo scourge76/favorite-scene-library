@@ -1,7 +1,7 @@
 # Favorite Scene Library (FSL)
 
 <p align="center">
-  <img src="docs/images/fsl-logo.png" alt="Favorite Scene Library logo" width="420">
+  <img src="docs/fsl-logo.jpg" alt="Favorite Scene Library logo" width="420">
 </p>
 
 **A Kodi add-on for organizing and instantly playing favorite movie scenes.**  
@@ -10,7 +10,7 @@
 Developed by **Scourge** · Version **1.0.0** · German & English
 
 <p align="center">
-  <img src="docs/images/home-widget.jpg" alt="FSL home screen and movie widget" width="760">
+  <img src="docs/home-widget.jpg" alt="FSL home screen and movie widget" width="760">
 </p>
 
 ---
@@ -69,19 +69,19 @@ Depending on the skin, the menu and widget settings may be called *Customize hom
 ### Screenshots
 
 #### FSL main-menu entry with the Movies widget
-![FSL main menu and movie widget](docs/images/home-widget.jpg)
+![FSL main menu and movie widget](docs/home-widget.jpg)
 
 #### Scene context menu
-![Scene context menu](docs/images/context-menu.jpg)
+![Scene context menu](docs/context-menu.jpg)
 
 #### Assigning a category
-![Category selection](docs/images/category-selection.jpg)
+![Category selection](docs/category-selection.jpg)
 
 #### Renamed scene in FSL
-![Renamed scene](docs/images/renamed-scene.jpg)
+![Renamed scene](docs/renamed-scene.jpg)
 
 #### Kodi bookmark source
-![Kodi bookmark window](docs/images/kodi-bookmarks.jpg)
+![Kodi bookmark window](docs/kodi-bookmarks.jpg)
 
 ---
 
@@ -139,19 +139,19 @@ Je nach Skin heißen die Menüpunkte beispielsweise *Startmenü anpassen*, *Widg
 ### Bildschirmfotos
 
 #### Eigener FSL-Menüpunkt mit Filme-Widget
-![FSL-Startseite und Filme-Widget](docs/images/home-widget.jpg)
+![FSL-Startseite und Filme-Widget](docs/home-widget.jpg)
 
 #### Kontextmenü einer Szene
-![Kontextmenü](docs/images/context-menu.jpg)
+![Kontextmenü](docs/context-menu.jpg)
 
 #### Kategorie festlegen
-![Kategorieauswahl](docs/images/category-selection.jpg)
+![Kategorieauswahl](docs/category-selection.jpg)
 
 #### Umbenannte Szene in FSL
-![Umbenannte Szene](docs/images/renamed-scene.jpg)
+![Umbenannte Szene](docs/renamed-scene.jpg)
 
 #### Kodi-Lesezeichen als Grundlage
-![Kodi-Lesezeichen](docs/images/kodi-bookmarks.jpg)
+![Kodi-Lesezeichen](docs/kodi-bookmarks.jpg)
 
 ---
 
