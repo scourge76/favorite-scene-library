@@ -34,7 +34,6 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           import hashlib
-          import html
           import shutil
           import zipfile
           import xml.etree.ElementTree as ET
@@ -91,15 +90,15 @@ jobs:
           (public / "addons.xml").write_bytes(xml_bytes)
           (public / "addons.xml.md5").write_text(hashlib.md5(xml_bytes).hexdigest(), encoding="ascii")
 
-          page = f"""<!doctype html>
-          <html lang='de'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
-          <title>Favorite Scene Library Repository</title>
-          <style>body{{font-family:system-ui;max-width:760px;margin:48px auto;padding:0 20px;line-height:1.5}}code{{background:#eee;padding:2px 5px}}a{{font-weight:600}}</style></head>
-          <body><h1>Favorite Scene Library Repository</h1>
-          <p>Kodi-Dateiquelle:</p><p><code>https://scourge76.github.io/favorite-scene-library/</code></p>
-          <p><a href='{html.escape(repo_zip.name)}'>repository.fsl-{repo_version}.zip herunterladen</a></p>
-          <p>In Kodi: <strong>Add-ons → Aus ZIP-Datei installieren</strong>, danach <strong>Aus Repository installieren → Favorite Scene Library Repository</strong>.</p>
-          </body></html>"""
+          page = f"""<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2 Final//EN'>
+          <html><head><title>Index of /favorite-scene-library</title></head>
+          <body><h1>Index of /favorite-scene-library</h1><hr><pre>
+          <a href='../'>../</a>
+          <a href='repository.fsl-{repo_version}.zip'>repository.fsl-{repo_version}.zip</a>
+          <a href='addons.xml'>addons.xml</a>
+          <a href='addons.xml.md5'>addons.xml.md5</a>
+          <a href='zips/'>zips/</a>
+          </pre><hr></body></html>"""
           (public / "index.html").write_text(page, encoding="utf-8")
           shutil.rmtree(public / "_stage")
           PY
