@@ -1,0 +1,73 @@
+# Kodi strings for Favorite Scene Library
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de_DE\n"
+
+msgctxt "#30001"
+msgid "All scenes"
+msgstr "Alle Szenen"
+
+msgctxt "#30002"
+msgid "Movies"
+msgstr "Filme"
+
+msgctxt "#30003"
+msgid "Categories"
+msgstr "Kategorien"
+
+msgctxt "#30004"
+msgid "Synchronize Kodi bookmarks"
+msgstr "Kodi-Lesezeichen synchronisieren"
+
+msgctxt "#30005"
+msgid "Rename scene"
+msgstr "Szene umbenennen"
+
+msgctxt "#30006"
+msgid "Set category"
+msgstr "Kategorie festlegen"
+
+msgctxt "#30007"
+msgid "Remove from FSL"
+msgstr "Aus FSL entfernen"
+
+msgctxt "#30008"
+msgid "Scene name"
+msgstr "Szenenname"
+
+msgctxt "#30009"
+msgid "Select category"
+msgstr "Kategorie auswählen"
+
+msgctxt "#30010"
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "#30011"
+msgid "Position"
+msgstr "Position"
+
+msgctxt "#30012"
+msgid "Scene"
+msgstr "Szene"
+
+msgctxt "#30020"
+msgid "%d Kodi bookmarks synchronized"
+msgstr "%d Kodi-Lesezeichen synchronisiert"
+
+msgctxt "#30021"
+msgid "Scene renamed"
+msgstr "Szene umbenannt"
+
+msgctxt "#30022"
+msgid "Category saved"
+msgstr "Kategorie gespeichert"
+
+msgctxt "#30023"
+msgid "Scene removed from FSL"
+msgstr "Szene aus FSL entfernt"
+
+msgctxt "#30030"
+msgid "Remove '%s' from FSL? The original Kodi bookmark is kept."
+msgstr "'%s' aus FSL entfernen? Das ursprüngliche Kodi-Lesezeichen bleibt erhalten."
