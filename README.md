@@ -1,95 +1,159 @@
 # Favorite Scene Library (FSL)
 
+<p align="center">
+  <img src="docs/images/fsl-logo.png" alt="Favorite Scene Library logo" width="420">
+</p>
+
 **A Kodi add-on for organizing and instantly playing favorite movie scenes.**  
 **Ein Kodi-Add-on zum Organisieren und direkten Abspielen deiner Lieblingsfilmszenen.**
 
-Developed by **Scourge**
+Developed by **Scourge** · Version **1.0.0** · German & English
+
+<p align="center">
+  <img src="docs/images/home-widget.jpg" alt="FSL home screen and movie widget" width="760">
+</p>
 
 ---
 
 ## English
 
-Favorite Scene Library turns Kodi video bookmarks into a clear and browsable scene collection.
+Favorite Scene Library turns Kodi video bookmarks into a separate, browsable scene library. Scenes can be renamed, grouped into categories and launched directly at their saved timestamp.
 
 ### Features
 
 - Imports existing Kodi video bookmarks
 - Starts playback at the exact saved timestamp
-- Browse scenes by movie or category
-- Rename scenes
-- Assign categories
-- Uses posters, fanart and available scene thumbnails
-- Separate SQLite database for FSL metadata
+- Browse by movie, scene or category
+- Rename scenes from the context menu
+- Assign categories such as Atmos, Bass Demo or Dolby Vision
+- Uses Kodi posters, fanart and available bookmark thumbnails
+- Stores FSL names and categories in its own SQLite database
 - German and English interface
-- Suitable for Kodi home-screen widgets
+- Works as a dedicated Kodi home-screen section with widgets
 
 ### Installation
 
-1. Download `plugin.video.favoritescenelibrary-1.0.0.zip` from the Releases section.
-2. Open Kodi.
-3. Go to **Add-ons → Install from zip file**.
-4. Select the downloaded ZIP file.
-5. Open **Favorite Scene Library** from the video add-ons.
+1. Download `plugin.video.favoritescenelibrary-1.0.0.zip` from **Releases**.
+2. In Kodi, open **Add-ons → Install from zip file**.
+3. Select the downloaded ZIP file.
+4. Open **Favorite Scene Library** under video add-ons.
+5. Open **Synchronize Kodi Bookmarks** once.
 
-### How it works
+### How to create and manage a scene
 
-FSL reads the video bookmarks already stored in Kodi. Each bookmark becomes a playable scene entry. Selecting a scene opens the corresponding movie and starts playback at the saved position.
+1. Start a movie in Kodi and pause at the beginning of the scene.
+2. Display Kodi's playback controls.
+3. Open **Bookmarks**. Depending on the skin, this is shown as a bookmark/page icon or under additional playback options.
+4. Select **Create bookmark** or **New bookmark**. A normal scene bookmark is required; a resume point alone is not sufficient.
+5. Open FSL. The bookmark is imported automatically or after **Synchronize Kodi Bookmarks**.
+6. Open the scene's context menu to rename it, assign a category or remove it from FSL.
+7. Selecting the scene opens the movie and seeks to the saved timestamp.
 
-The add-on does not modify or delete the original Kodi bookmark when an entry is removed from FSL.
+Removing a scene from FSL does **not** delete the original Kodi bookmark.
 
-### Home-screen widget
+### Dedicated FSL home-screen entry and movie widget
 
-For the cleanest Kodi home-screen layout, use:
+For the cleanest setup, create a separate Kodi main-menu item named **FSL** and attach an FSL widget to it. The exact wording differs by skin, but the general procedure is:
 
-**Favorite Scene Library → Movies**
+1. Open the skin settings.
+2. Go to **Home menu**, **Customize main menu** or a similarly named section.
+3. Add a new main-menu entry and name it **FSL**.
+4. Set its action to open the **Favorite Scene Library** add-on.
+5. Add a widget to this menu entry.
+6. Choose **Add-ons → Video add-ons → Favorite Scene Library → Movies** as the widget source.
 
-This displays one poster per movie. Selecting a movie opens its saved scenes.
+Using **Movies** rather than **All Scenes** displays one poster per movie. Selecting a poster opens only the saved scenes for that movie. This remains clear even when the library contains many scenes.
+
+Depending on the skin, the menu and widget settings may be called *Customize home menu*, *Widgets*, *Select widget*, *Choose path* or similar. The screenshots below show the setup in an Arctic-style Kodi skin.
+
+### Screenshots
+
+#### FSL main-menu entry with the Movies widget
+![FSL main menu and movie widget](docs/images/home-widget.jpg)
+
+#### Scene context menu
+![Scene context menu](docs/images/context-menu.jpg)
+
+#### Assigning a category
+![Category selection](docs/images/category-selection.jpg)
+
+#### Renamed scene in FSL
+![Renamed scene](docs/images/renamed-scene.jpg)
+
+#### Kodi bookmark source
+![Kodi bookmark window](docs/images/kodi-bookmarks.jpg)
 
 ---
 
 ## Deutsch
 
-Favorite Scene Library macht aus den in Kodi gespeicherten Video-Lesezeichen eine übersichtliche Szenenbibliothek.
+Favorite Scene Library macht aus den in Kodi gespeicherten Video-Lesezeichen eine eigene, übersichtliche Szenenbibliothek. Szenen lassen sich umbenennen, Kategorien zuordnen und direkt an der gespeicherten Position starten.
 
 ### Funktionen
 
 - Übernimmt vorhandene Kodi-Video-Lesezeichen
 - Startet Filme exakt an der gespeicherten Position
-- Szenen nach Film oder Kategorie anzeigen
-- Szenen umbenennen
-- Kategorien vergeben
-- Verwendet Poster, Fanart und vorhandene Szenenbilder
-- Eigene SQLite-Datenbank für FSL-Zusatzinformationen
+- Ansichten nach Film, Szene und Kategorie
+- Szenen über das Kontextmenü umbenennen
+- Kategorien wie Atmos, Bass Demo oder Dolby Vision vergeben
+- Verwendet Kodi-Poster, Fanart und vorhandene Lesezeichenbilder
+- Speichert FSL-Namen und Kategorien in einer eigenen SQLite-Datenbank
 - Deutsche und englische Benutzeroberfläche
-- Für Kodi-Startseiten-Widgets geeignet
+- Als eigener Kodi-Startseitenpunkt mit Widget nutzbar
 
 ### Installation
 
-1. `plugin.video.favoritescenelibrary-1.0.0.zip` im Bereich **Releases** herunterladen.
-2. Kodi öffnen.
-3. **Add-ons → Aus ZIP-Datei installieren** auswählen.
-4. Die heruntergeladene ZIP-Datei auswählen.
-5. **Favorite Scene Library** unter den Video-Add-ons öffnen.
+1. `plugin.video.favoritescenelibrary-1.0.0.zip` unter **Releases** herunterladen.
+2. In Kodi **Add-ons → Aus ZIP-Datei installieren** öffnen.
+3. Die heruntergeladene ZIP-Datei auswählen.
+4. **Favorite Scene Library** unter den Video-Add-ons öffnen.
+5. Einmal **Kodi-Lesezeichen synchronisieren** ausführen.
 
-### Funktionsweise
+### Szene anlegen und verwalten
 
-FSL liest die bereits in Kodi gespeicherten Video-Lesezeichen ein. Aus jedem Lesezeichen wird eine direkt abspielbare Szene. Beim Öffnen startet der zugehörige Film an der gespeicherten Position.
+1. Einen Film starten und am Anfang der gewünschten Szene pausieren.
+2. Die Wiedergabesteuerung von Kodi einblenden.
+3. **Lesezeichen** öffnen. Je nach Skin befindet sich die Funktion hinter einem Lesezeichen-/Seiten-Symbol oder in den weiteren Wiedergabeoptionen.
+4. **Lesezeichen erstellen** oder **Neues Lesezeichen** auswählen. Es muss ein normales Szenen-Lesezeichen sein; ein bloßer Fortsetzungspunkt reicht nicht aus.
+5. FSL öffnen. Das Lesezeichen wird automatisch oder nach **Kodi-Lesezeichen synchronisieren** übernommen.
+6. Über das Kontextmenü kann die Szene umbenannt, einer Kategorie zugeordnet oder aus FSL entfernt werden.
+7. Beim Öffnen der Szene startet der Film direkt an der gespeicherten Position.
 
-Wird eine Szene nur aus FSL entfernt, bleibt das ursprüngliche Kodi-Lesezeichen erhalten.
+Das Entfernen aus FSL löscht **nicht** das ursprüngliche Kodi-Lesezeichen.
 
-### Startseiten-Widget
+### Eigener FSL-Startseitenpunkt mit Film-Widget
 
-Für eine übersichtliche Kodi-Startseite sollte dieses Ziel verwendet werden:
+Für die übersichtlichste Bedienung sollte in Kodi ein eigener Hauptmenüpunkt **FSL** angelegt und mit einem FSL-Widget verbunden werden. Die Bezeichnungen unterscheiden sich je nach Skin, das Grundprinzip ist aber gleich:
 
-**Favorite Scene Library → Filme**
+1. Die Einstellungen des verwendeten Skins öffnen.
+2. **Hauptmenü**, **Startmenü anpassen** oder einen ähnlich benannten Bereich öffnen.
+3. Einen neuen Hauptmenüpunkt anlegen und **FSL** nennen.
+4. Als Aktion das Add-on **Favorite Scene Library** auswählen.
+5. Für diesen Menüpunkt ein Widget hinzufügen.
+6. Als Widget-Pfad **Add-ons → Video-Add-ons → Favorite Scene Library → Filme** auswählen.
 
-Dadurch erscheint pro Film ein Poster. Nach Auswahl des Films werden dessen gespeicherte Szenen angezeigt.
+Als Widget sollte **Filme** und nicht **Alle Szenen** verwendet werden. Dadurch wird pro Film nur ein Poster angezeigt. Beim Anklicken des Posters erscheinen ausschließlich die gespeicherten Szenen dieses Films. Das bleibt auch bei vielen Szenen übersichtlich.
+
+Je nach Skin heißen die Menüpunkte beispielsweise *Startmenü anpassen*, *Widgets*, *Widget auswählen* oder *Pfad wählen*. Die folgenden Bilder zeigen das Prinzip in einem Arctic-Kodi-Skin.
+
+### Bildschirmfotos
+
+#### Eigener FSL-Menüpunkt mit Filme-Widget
+![FSL-Startseite und Filme-Widget](docs/images/home-widget.jpg)
+
+#### Kontextmenü einer Szene
+![Kontextmenü](docs/images/context-menu.jpg)
+
+#### Kategorie festlegen
+![Kategorieauswahl](docs/images/category-selection.jpg)
+
+#### Umbenannte Szene in FSL
+![Umbenannte Szene](docs/images/renamed-scene.jpg)
+
+#### Kodi-Lesezeichen als Grundlage
+![Kodi-Lesezeichen](docs/images/kodi-bookmarks.jpg)
 
 ---
-
-## Current release / Aktuelle Version
-
-**1.0.0**
 
 ## License / Lizenz
 
