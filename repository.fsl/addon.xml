@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.fsl"
+       name="Favorite Scene Library Repository"
+       version="1.0.0"
+       provider-name="Scourge">
+  <extension point="xbmc.addon.repository" name="Favorite Scene Library Repository">
+    <dir>
+      <info compressed="false">https://scourge76.github.io/favorite-scene-library/addons.xml</info>
+      <checksum>https://scourge76.github.io/favorite-scene-library/addons.xml.md5</checksum>
+      <datadir zip="true">https://scourge76.github.io/favorite-scene-library/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Official repository for Favorite Scene Library.</summary>
+    <summary lang="de_DE">Offizielles Repository für Favorite Scene Library.</summary>
+    <description lang="en_GB">Install and update Favorite Scene Library directly in Kodi.</description>
+    <description lang="de_DE">Favorite Scene Library direkt in Kodi installieren und aktualisieren.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://github.com/scourge76/favorite-scene-library</website>
+  </extension>
+</addon>
