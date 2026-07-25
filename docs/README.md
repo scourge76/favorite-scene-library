@@ -1,0 +1,1 @@
+The screenshots and logo used in the project documentation are stored in this folder.
